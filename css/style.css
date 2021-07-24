@@ -1,0 +1,62 @@
+body {
+  background: linear-gradient(white, cyan);
+  height: max-content;
+  color: blueviolet;
+}
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: darkblue;
+}
+
+.navbar li {
+  float: left;
+}
+
+.navbar li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+.navbar li a:hover {
+  background-color: blue;
+}
+.intro {
+  margin-left: 5cm;
+  margin-right: auto;
+}
+.image img {
+    width: 10cm;
+    height: 10cm;
+    margin-left: 5cm;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+.container {
+    margin-left: 5cm;
+    margin-right: 5cm;
+}
+table {
+    width: 100%;
+    border: 1px solid cyan;
+    border-collapse: collapse;
+}
+th, td {
+    border: 1px solid darkblue;
+    border-collapse: collapse;
+    height: 2cm;
+  }
+  .portfolio img {
+      width: 7cm;
+      margin-right: 100%;
+  }
